@@ -1,0 +1,71 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: 'rgb(var(--zinc-950) / <alpha-value>)',
+        foreground: 'rgb(var(--zinc-50) / <alpha-value>)',
+        zinc: {
+          50: 'rgb(var(--zinc-50) / <alpha-value>)',
+          100: 'rgb(var(--zinc-100) / <alpha-value>)',
+          200: 'rgb(var(--zinc-200) / <alpha-value>)',
+          300: 'rgb(var(--zinc-300) / <alpha-value>)',
+          400: 'rgb(var(--zinc-400) / <alpha-value>)',
+          500: 'rgb(var(--zinc-500) / <alpha-value>)',
+          600: 'rgb(var(--zinc-600) / <alpha-value>)',
+          700: 'rgb(var(--zinc-700) / <alpha-value>)',
+          800: 'rgb(var(--zinc-800) / <alpha-value>)',
+          900: 'rgb(var(--zinc-900) / <alpha-value>)',
+          950: 'rgb(var(--zinc-950) / <alpha-value>)',
+        },
+        violet: {
+          50: 'rgb(var(--violet-50) / <alpha-value>)',
+          100: 'rgb(var(--violet-100) / <alpha-value>)',
+          200: 'rgb(var(--violet-200) / <alpha-value>)',
+          300: 'rgb(var(--violet-300) / <alpha-value>)',
+          400: 'rgb(var(--violet-400) / <alpha-value>)',
+          500: 'rgb(var(--violet-500) / <alpha-value>)',
+          600: 'rgb(var(--violet-600) / <alpha-value>)',
+          700: 'rgb(var(--violet-700) / <alpha-value>)',
+          800: 'rgb(var(--violet-800) / <alpha-value>)',
+          900: 'rgb(var(--violet-900) / <alpha-value>)',
+          950: 'rgb(var(--violet-950) / <alpha-value>)',
+        },
+        sky: {
+          200: 'rgb(var(--sky-200) / <alpha-value>)',
+          300: 'rgb(var(--sky-300) / <alpha-value>)',
+          400: 'rgb(var(--sky-400) / <alpha-value>)',
+          500: 'rgb(var(--sky-500) / <alpha-value>)',
+          600: 'rgb(var(--sky-600) / <alpha-value>)',
+        },
+        red: {
+          200: 'rgb(var(--red-200) / <alpha-value>)',
+          300: 'rgb(var(--red-300) / <alpha-value>)',
+          400: 'rgb(var(--red-400) / <alpha-value>)',
+          600: 'rgb(var(--red-600) / <alpha-value>)',
+          900: 'rgb(var(--red-900) / <alpha-value>)',
+          950: 'rgb(var(--red-950) / <alpha-value>)',
+        },
+        emerald: {
+          200: 'rgb(var(--emerald-200) / <alpha-value>)',
+          300: 'rgb(var(--emerald-300) / <alpha-value>)',
+          400: 'rgb(var(--emerald-400) / <alpha-value>)',
+          600: 'rgb(var(--emerald-600) / <alpha-value>)',
+          950: 'rgb(var(--emerald-950) / <alpha-value>)',
+        },
+        amber: {
+          200: 'rgb(var(--amber-200) / <alpha-value>)',
+          300: 'rgb(var(--amber-300) / <alpha-value>)',
+          400: 'rgb(var(--amber-400) / <alpha-value>)',
+          600: 'rgb(var(--amber-600) / <alpha-value>)',
+        },
+      },
+    },
+  },
+  plugins: [],
+}
